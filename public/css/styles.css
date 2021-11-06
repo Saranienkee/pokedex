@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@font-face {
+    font-family: 'pokemon_fire_red';
+    src: url('./../fonts/pokemon_fire_red.woff') format('woff');
+}
+.color{
+    background-color: #ffe9ae;
+}
+.fondo {
+    background-image: url("./../imgs/Bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+
+.submitButton{
+    font-family: 'pokemon_fire_red';
+    font-size: 35px;
+    text-align: center;
+    color: #ffe195;
+    background-color: #1463a8;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 20px #fdcb02;
+    font-weight: bolder;
+}
+.submitButton:hover {
+    color: #1463a7;
+    background-color: #ffe9ae;
+    box-shadow: 0 4px #fdcb02;
+
+}
+.inputPokemon{
+    max-width: 250px;
+    max-height: 80px;
+    min-width: 100px;
+    min-height: 80px;
+    background-color: #2469b7;
+    color: #ffe9ae;
+    border: 5px solid #ffcc00;
+    border-radius: 30px;
+    font-family: 'pokemon_fire_red';
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0 15px #fdcb02;
+}
+.inputPokemon:hover {
+    color: #1463a7;
+    background-color: #ffe9ae;
+    box-shadow: 0 4px #fdcb02;
+
+}
+.headerDis{
+    background-color: #6a8fa0;
+    max-height: 500px;
+    min-height: 400px;
+}
+
+
+
+.pokeCartas{
+    min-width: 300px;
+    max-width: 600px;
+}
+.imgPokemon{
+    width: 100%;
+}
+.imgPokemonLogo{
+    width: 100%;
+
+
+}
+.headerRow{
+    height: 140%;
+
+    background-color: #6a8fa0;
+
+}
+.imgCarta{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100px;
+    max-width: 200px;
+
+}
+
+
+.fotoCard{
+    background-color: #fdde85;
+}
+.titlePokeCard{
+    font-size: 80px;
+    font-weight: bold;
+}
+.bodyPokemon{
+    font-family: 'pokemon_fire_red';
+}
+.pokeCartaTitulo{
+    background-color: #6a8fa0;
+}
+.cartaBg{
+    background-color: #fff1cf;
+    background-image: url("./../imgs/ImBgCarta2.png");
+}
+.cartaPokemon{
+    border-radius: 40px;
+}
+.typeText{
+    font-weight: bold;
+    font-size: 30px;
+}
+.statsText{
+    font-size: 30px;
+}
+.colorType{
+    background-color: #6a8fa0;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.camila{
+    width: 24%;
+    height: 370px;
+    margin: 30px auto;
+}
+.scrollableCamila{
+    overflow-y:scroll;
+    height:300px;
+    background-color: #FDDE85;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar{
+    width: 14px;
+    height: 14px;
+}
+::-webkit-scrollbar-thumb{
+    background: #6A91A1;
+    border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #527280;
+}
+::-webkit-scrollbar-track{
+    background: #FFF3D1;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
+.textMovAb{
+    font-size: 23px;
+}
+
+.abCard{
+    background-color: #FDDE85;
+    border-radius: 10px;
+
+}
+
